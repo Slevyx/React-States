@@ -1,0 +1,93 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font: 40px bolder;
+  font-family: fantasy;
+  font-style: oblique;
+  margin-top: 20px;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+tr.fields {
+  color: white;
+  font: 24px bolder;
+  font-family: fantasy;
+  font-style: oblique;
+  margin: 20px;
+}
+
+.loading_image {
+  width: 400px;
+  height: auto;
+  margin-top: 30px;
+}
+
+.details {
+  width: calc(100% - 65px);
+  background-color: rgb(80, 141, 255);
+}
+
+.details_button {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 95, 95);
+  border: solid black 2px;
+  border-radius: 50%;
+}
+
+.element_one {
+  width: calc(100% - 65px);
+  background-color: orange;
+}
+
+.element_two {
+  width: calc(100% - 65px);
+  background-color: rgb(233, 216, 68);
+}
+
+.close {
+  position: absolute;
+  right: 15px;
+  color: red;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.arrow_container {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.arrow_image {
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.arrow_text {
+  font: 24px bolder;
+  font-family: fantasy;
+  font-style: oblique;
+}
